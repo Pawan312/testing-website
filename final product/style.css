@@ -180,6 +180,9 @@ html, body {
         padding-right: 5vw;
         height: 6vw;
     }
+    .bottomIcon .mar{
+        height: 6vw;
+    }
 }
 
 
