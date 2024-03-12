@@ -94,10 +94,10 @@ html, body {
     }
     .footup{
         padding-bottom: 5vh;
-        padding-top: 5vh;
+        padding-top: 4vw;
     }
     .footup button{
-        padding: 4vw 6vh;
+        padding: vw 1vw;
         font-size: 5vw;
         border-radius: 10px;
     }
@@ -112,32 +112,32 @@ html, body {
     #leftMost{
         /* background-color: red; */
         width: 100%;
-        font-size: 25px;
-        height: 50vh;
+        font-size: 3vw;
+        height: 80vw;
     }
     #leftMost h1{
         font-size: 7.5vw;
     }
     #leftMost p {
-        font-size: 3.5vh;
+        font-size: 4.5vw;
         line-height: 3.5vh;
     }
 
     .midMost{
         width: 100%;
-        height: 55vmax;
+        height: 70vw;
         /* background-color: orchid; */
-        margin: 3vh 0vh;
+        margin: 2vw 0vh;
     }
     .midMost h1{
         font-size: 7.5vw;
         font-weight: 500;
     }
     .midMost h3{
-        font-size: 4vh;
+        font-size: 6vw;
     }
     .set2{
-        padding-right: 20vw;
+        padding-right: 10vw;
     }
 
     .rightMost{
@@ -150,7 +150,7 @@ html, body {
         font-size: 7.5vw;
     }
     .rightMost h3{
-        font-size: 4vh;
+        font-size: 6vw;
     }
     .set3{
         padding-right: 2vw;
@@ -160,25 +160,25 @@ html, body {
         flex-direction: column;
         align-items: flex-start;
         /* background-color: violet; */
-        padding-top: 1.5vh;
+        padding-top: 13vw;
         /* height: 20vh; */
         /* padding-top: 5vmax; */
     }
     .footbottom p{
-        font-size: 2.2vh;
+        font-size: 3vw;
     }
     .bottomIcon{
         padding-top: 1vh;
     }
     .bottomIcon h6{
         /* background-color: brown; */
-        font-size: 2.2vh;
+        font-size: 3vw;
         font-weight: 400;
-        padding-bottom: 1vh;
+        padding-bottom: 1vw;
     }
     .bottomIcon .kar{
-        padding-right: 6vw;
-        height: 4.5vh;
+        padding-right: 5vw;
+        height: 6vw;
     }
 }
 
@@ -343,13 +343,14 @@ html, body {
         /* background-color: olive; */
         text-align: left;
         padding: 2vh 0vh;
+        font-size: 12vw;
     }
     .pehla .uppar p{
         /* background-color: olive; */
         text-align: left;
-        font-size: 3.5vh;
+        font-size: 6vw;
         padding: 0;
-        line-height: 3.5vh;
+        line-height: 7vw;
         font-weight: 100;
     }
     .absolu{
@@ -377,12 +378,7 @@ html, body {
         /* background-color: red; */
         padding-top: 120% ;
     }
-    .mages img{
-        margin: 0;
-        padding: 0;
-        height: 80vw;
-        width: 100vw;
-    }
+
     .hide{
         display: none;
     }
@@ -391,6 +387,7 @@ html, body {
         /* background-color: olive; */
         grid-template-columns: 100%;
         grid-template-rows: 8% 35% 30% 27%;
+        margin-top: 10vw;
     }
     .child2{
         grid-column: 1/3;
@@ -409,6 +406,7 @@ html, body {
     .child1 img{
         margin: 0;
         margin-top: 3vw;
+        margin-left: 2vw;
         width: 90.5vw;
         height: 60vw;
     }
@@ -418,18 +416,20 @@ html, body {
     }
     .child3 div{
         width: 100%;
-        margin-top: 4vw;
+        margin-top: 1vw;
     }
     .child3 span{
         color: white;
-        font-size: 3.5vh;
-        line-height: 5vh;
+        font-size: 6vw;
+        line-height: 7vw;
         font-weight: 400;
+        margin-bottom: 10vw;
     }
     .child4{
         grid-column: 1/2;
         grid-row: 4/5;
         /* background-color: orange; */
+        margin-top: 6vw;
     }
     .child4 button{
         display: block;
@@ -600,7 +600,7 @@ html, body {
     }
     #divup img{
         width: 80%;
-        height:50vh;
+        height:70vw;
     }
     .c4{
         padding-left: 1vw;
@@ -625,10 +625,10 @@ html, body {
     
     .c2{
         /* background-color: lightgreen; */
-        font-size: 3.5vh;
+        font-size: 6vw;
         grid-column: 1/2;
         grid-row: 3/4;
-        line-height: 6vh;
+        line-height: 7vw;
     }
     
     .c3{
@@ -665,9 +665,10 @@ html, body {
         margin-top: 10vw;
     }
     #divbottom img{
-        margin-left: 10vw;
-        height: 55vw;
-        width: 65vw;
+        margin-top: 20vw;
+        margin-left: 5vw;
+        height: 70vw;
+        width: 80vw;
     }
     .cl8{
         display: none;
@@ -681,12 +682,17 @@ html, body {
         grid-row: 1/2;
         background-color: red;
         align-self: flex-start;
-        padding-top: 10vw;
+        padding-top: 15vw;
+    }
+    #divbottom h1{
+        font-size: 11vw;
     }
 
     .cl3{
         /* background-color: lightsalmon; */
         /* font-size: 4vw; */
+        display: flex;
+        align-items: center;
         grid-column: 1/2;
         grid-row: 3/4;
         padding: 0;
@@ -694,14 +700,14 @@ html, body {
         /* line-height: 6vh; */
     }
     .cl6{
-        font-size: 5vw;
+        font-size: 6vw;
         line-height: 8vw;
         word-spacing: 4px;
     }
     .cl4{
         grid-column: 1/2;
         grid-row: 4/5;
-        /* border-right-color: olive; */
+        border-right-color: olive;
     }
     .mover{
         margin-bottom: 3vw;
@@ -994,7 +1000,7 @@ button{
         color: transparent;
     }
     .blue{
-        font-size: 2vw;
+        font-size: 2vh;
         display: inline-block;
     }
     #mid {
@@ -1011,15 +1017,15 @@ button{
         height: 53vh;
     }
     .circle-img img{
-        height: 53vh;
-        width: 85vw;
-        padding-left: 3vw;
+        height: 80vw;
+        width: 90vw;
+        padding-left: 2vw;
     }
     .text1{
         text-align: center;
     }
     .text1 p{
-        padding-top: 5vh;
+        padding-top: 5vw;
         grid-row: 2/3;
         font-size: 4.5vw;
         line-height: 8vw;
@@ -1042,10 +1048,10 @@ button{
     }
     #bottom1 h1{
         /* background-color: red; */
-        margin-top: 3vw;
+        margin-top: 2vw;
         grid-row: 1/2;
         grid-column: 1/3;
-        font-size: 12vw;
+        font-size: 13vw;
     }
     #bottom1 span{
         /* background-color: red; */
@@ -1080,26 +1086,26 @@ button{
         margin-bottom: 4vw;
     }
     .maincard{
-        margin: 10vw;
-        height: 35vw;
-        width: 60vw;
+        margin: 4vw;
+        height: 50vw;
+        width: 80vw;
     }
     .leftcard{
-        height: 18vw;
-        width: 27vw;
-        left: 8%;
-        top: 33%;
+        height: 25vw;
+        width: 35vw;
+        left: 1%;
+        top: 30%;
     }
     .rightupcard{
-        height: 18vw;
-        width: 25vw;
-        top: 10%;
+        height: 25vw;
+        width: 33vw;
+        top: 0%;
         left: 65%;
     }
     .rightbottomcard{
-        height: 19vw;
-        width: 27vw;
+        height: 25vw;
+        width: 33vw;
         left: 65%;
-        top: 54%;
+        top: 58%;
     }
 }
