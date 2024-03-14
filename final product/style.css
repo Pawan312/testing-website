@@ -29,48 +29,35 @@ html, body {
     -webkit-background-clip: text;
     color: transparent;
 }
-.footmid{
+#divmid{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5vw;
 }
-.footmid h1 {
-    padding-bottom: 2vw;
+#divmid h2{
+    font-size: 2vw;
+    margin-bottom: 2vw;
     font-weight: 400;
 }
-.footmid h3{
-    padding-bottom: 2vw;
+#divmid h3{
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
     font-weight: 400;
 }
-#leftMost{
-    /* background-color: red; */
-    display: flex;
-    
-    flex-direction: column;
-    width: 22vw;
-    height: 30vw;
-}
-#leftMost p{
-    padding-bottom: 4vw;
+#divmid p{
+    font-size: 1.1vw;
+    width: 21vw;
     line-height: 1.5vw;
+    font-weight: 100;
 }
-
-.midMost{
+#divbottom{
     display: flex;
-    height: 20vw;
-    width: 25vw;
-    /* background-color: olivedrab; */
     justify-content: space-between;
+    align-items: center;
 }
-.set{
-    display: flex;
-    flex-direction: column;
-}
-.rightMost{
-    /* background-color: orchid; */
-    display: flex;
-    height: 50vh;
-    width: 25vw;
-    justify-content: space-between;
+#divbottom p{
+    font-size: 1vw;
 }
 .footbottom{
     padding-top: 5vh;
@@ -93,8 +80,8 @@ html, body {
         justify-content: space-between;
     }
     .footup{
-        padding-bottom: 5vh;
-        padding-top: 4vw;
+        padding-bottom: 0vw;
+        padding-top: 10vw;
     }
     .footup button{
         padding: vw 1vw;
@@ -105,55 +92,24 @@ html, body {
         width: 30vw;
         height: 12vw;
     }
-    .footmid{
-        display: flex;
-        flex-direction: column;
-    }
-    #leftMost{
-        /* background-color: red; */
+    #divmid{
+        margin-bottom: 5vw;
         width: 100%;
-        font-size: 3vw;
-        height: 90vw;
     }
-    #leftMost h1{
-        font-size: 7.5vw;
+    #divmid h2{
+        font-size: 7vw;
+        margin-bottom: 5vw;
     }
-    #leftMost p {
-        font-size: 4.5vw;
-        line-height: 3.5vh;
+    #divmid h3{
+        font-size: 5vw;
+        margin-bottom: 5vw;
     }
-
-    .midMost{
+    #divmid p{
+        font-size: 4vw;
         width: 100%;
-        height: 70vw;
-        /* background-color: orchid; */
-        margin: 2vw 0vh;
-    }
-    .midMost h1{
-        font-size: 7.5vw;
-        font-weight: 500;
-    }
-    .midMost h3{
-        font-size: 6vw;
-    }
-    .set2{
-        padding-right: 10vw;
-    }
-
-    .rightMost{
-        width: 100%;
-        /* background-color: red; */
-        height: 30vmax;
-        
-    }
-    .rightMost h1{
-        font-size: 7.5vw;
-    }
-    .rightMost h3{
-        font-size: 6vw;
-    }
-    .set3{
-        padding-right: 2vw;
+        line-height: 6vw;
+        font-weight: 100;
+        margin-bottom: 7vw;
     }
     .footbottom{
         display: flex;
@@ -167,6 +123,10 @@ html, body {
     .footbottom p{
         font-size: 3vw;
     }
+    #footer .feat{
+        padding-right: 8vw;
+    }
+    
     .bottomIcon{
         padding-top: 1vh;
     }
@@ -305,14 +265,14 @@ html, body {
     /* background-color: blue; */
     grid-column: 2/4;
     grid-row: 2/4;
-    padding-top: 4vmax;
+    padding-top: 4vw;
 }
 
 .child3 span{
     color: white;
     font-size: 1.5vw;
     line-height: 2vw;
-    word-spacing: 4px;
+    word-spacing: 0.5vw;
     
 }
 .child4{
@@ -321,7 +281,7 @@ html, body {
     grid-row: 4/9;
 }
 .child4 button{
-    padding: 1rem 1rem;
+    padding: 1vw;
     font-weight: 500;
     font-size: 2vw;
     border-radius: 6px;
@@ -360,28 +320,41 @@ html, body {
         display: flex;
         flex-direction: column;
     }
-    .absolu img{
-        width: 90vw;
-        height:70vw
+    .abso img{
+        width: 95vw;
+        height:65vw;
+        margin-left: 10vw;
     }
     .abso{
         /* background-color: brown; */
         background-size: cover;
         background-position: center;
-        left: -10%;
+        left: -12.3%;
         top: 5%;
+        margin: 0vw 5vw;
         margin-bottom: 5vw;
+        overflow: hidden;
     }
-    /* .abso img{
-        width: 70vw;
+    /* .mages .hero{
+        margin: 0;
+        padding: 0;
+        width: 150vw;
     } */
+
     .mages{
         margin: 0;
         padding: 0;
-        /* background-color: red; */
-        padding-top: 120% ;
+        margin-top: 85vw ;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
     }
-
+    .mages img{
+        margin: 0;
+        padding: 0;
+        width: 95vw;
+        height: 83vw;
+    }
     .hide{
         display: none;
     }
@@ -389,13 +362,13 @@ html, body {
     #nichla{
         /* background-color: olive; */
         grid-template-columns: 100%;
-        grid-template-rows: 8% 35% 30% 27%;
+        grid-template-rows: 8% 35% 36% 21%;
         margin-top: 10vw;
     }
     .child2{
         grid-column: 1/3;
         grid-row: 1/2;
-        /* background-color: red; */
+        background-color: red;
     }
     .child2 h1{
         padding: 0vw;
@@ -403,25 +376,31 @@ html, body {
     }
     .child1{
         grid-column: 1/2;
-        /* background-color: pink; */
+        background-color: pink;
         grid-row: 2/3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .child1 img{
         margin: 0;
-        margin-top: 3vw;
-        margin-left: 2vw;
         width: 90.5vw;
         height: 60vw;
     }
     .child3{
+        background-color: greenyellow;
+        margin: 0;
+        padding: 0;
+        margin-top: 3vw;
         grid-column: 1/2;
         grid-row: 3/4;
-    }
-    .child3 div{
-        width: 100%;
-        margin-top: 1vw;
+        display: flex;
+        flex-wrap: wrap;
     }
     .child3 span{
+        width: 100%;
+        margin: 0;
+        padding: 0;
         color: white;
         font-size: 6vw;
         line-height: 7vw;
@@ -432,20 +411,22 @@ html, body {
         grid-column: 1/2;
         grid-row: 4/5;
         /* background-color: orange; */
-        margin-top: 6vw;
+        margin-top: 3vw;
+        padding-top: 2vw;
     }
     .child4 button{
         display: block;
-        width: 90.5vw;
-        height: 15vw;
+        width: 100%;
         font-size: 5vw;
-        /* color: black; */
-        margin-top: 5vw;
+        padding: 4vw;
+        margin: 0;
         border-radius: 15px;
+        margin-bottom: 10vw;
     }
-    .agency{
-        margin: 5vw 0;
-        color: white;
+    .child4 .agency{
+        /* margin: 5vw 0; */
+        margin-bottom: 3vw;
+        /* color: white; */
     }
     
 }
@@ -522,6 +503,9 @@ html, body {
     grid-template-columns: 50% 50%;
     grid-template-rows: 45% 20% 35%;
     margin: 12vw 5vw;
+}
+#divbottom .newupdate{
+    display: none;
 }
 #divbottom img{
     width: 36.2vw;
@@ -604,6 +588,8 @@ html, body {
     #divup img{
         width: 80%;
         height:70vw;
+        margin-top: 2vw;
+        border-bottom:3px solid black;
     }
     .c4{
         padding-left: 1vw;
@@ -643,7 +629,7 @@ html, body {
     }
     #divup button{
         display: block;
-        width: 90.5vw;
+        width: 100%;
         height: 15vw;
         font-size: 5vw;
         /* color: black; */
@@ -658,20 +644,24 @@ html, body {
         grid-template-rows: 8% 42% 30% 20%;
         margin: 0;
         padding: 0;
-        height: 120vh;
-        /* margin-bottom: 20vh; */
         margin: 3vw;
+        margin-bottom: 10vw;
     }
-    .cl1{
+    #divbottom .cl1{
+        display: none;
+    }
+    #divbottom .newupdate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         grid-column: 1/2;
         grid-row: 2/3;
-        margin-top: 10vw;
     }
     #divbottom img{
-        margin-top: 20vw;
-        margin-left: 5vw;
-        height: 70vw;
-        width: 80vw;
+        margin-top: 15vw;
+        margin-left: -3vw;
+        height: 65vw;
+        width: 100vw;
     }
     .cl8{
         display: none;
@@ -713,16 +703,17 @@ html, body {
         border-right-color: olive;
     }
     .mover{
-        margin-bottom: 3vw;
+        margin-bottom: 0vw;
     }
     #divbottom button{
         display: block;
-        width: 90.5vw;
+        width: 100%;;
         height: 15vw;
         font-size: 5vw;
         /* color: black; */
         /* margin-top: 5vw; */
         border-radius: 15px;
+        margin-bottom: 6vw;
     }
     
 }
@@ -783,7 +774,7 @@ html, body {
 
 #nav a {
     text-decoration: none;
-    color: #EEEEEE;
+    color: #eeeeeed7;
     font-size: 1.5vw;
     font-weight: 100;
     gap: 32px;
@@ -795,7 +786,7 @@ html, body {
     background: linear-gradient(#00D4F1, #00CFEB, #5AEBFF, #00B6CF);
     color: #090B0B;
     padding: 1vw 2vw;
-    font-size: 1.3vw;
+    /* font-weight: 600; */
     border-radius: 4px;
 }
 
@@ -809,12 +800,11 @@ html, body {
     scale: 1 0.7;
     font-size: 10vw;
     font-weight: 700;
-     background: -webkit-linear-gradient(#FFFFFF,#f0eded,#767373);
+    background: -webkit-linear-gradient(#FFFFFF,#f0eded,#767373);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 #top .blue{
-    font-size: 135px;
     font-size: 10vw;
     font-weight: bold;
     background: -webkit-linear-gradient(#19C2D9,#C8F8FF);
@@ -826,7 +816,7 @@ html, body {
 
 #mid {
     display: grid;
-    grid-template-rows: 1;
+    grid-template-rows: 100%;
     grid-template-columns: 30% 33% 33%;
     padding: 5vw;
     padding-top: 1vw;
@@ -837,7 +827,7 @@ html, body {
     width: 33vw;
 }
 #mid .text1{
-    margin-top: 30px;
+    margin-top: 3.5vw;
     color: white;
     font-size: 1.3vw;
     text-align: center;
@@ -988,9 +978,15 @@ button{
         display: none;
     } */
 
+    #nav {
+        padding-top: 5vw;
+    }
+    #nav img{
+        width: 35vw;
+    }
     #top{
         /* background-color: olive; */
-        display: inline-block;
+        margin-top: 3vw;
         width: 100%;
     }
     #heading{
@@ -998,13 +994,9 @@ button{
     }
     .black{
         margin-right: 3vw;
-        background: linear-gradient(to right,red,rgb(157, 62, 62));
-        -webkit-background-clip: text;
-        color: transparent;
     }
     .blue{
-        font-size: 2vh;
-        display: inline-block;
+        font-size: 2vw;
     }
     #mid {
         /* background-color: red; */
@@ -1017,25 +1009,26 @@ button{
         grid-row: 1/2;
         grid-column: 1/2;
         /* background-color: lightcoral; */
-        height: 53vh;
+        height: 87vw;
     }
     .circle-img img{
         height: 80vw;
         width: 90vw;
         padding-left: 2vw;
+        padding-top: 3vw;
     }
     .text1{
         text-align: center;
     }
     .text1 p{
-        padding-top: 5vw;
+        padding-top: 6vw;
         grid-row: 2/3;
-        font-size: 4.5vw;
+        font-size: 4.7vw;
         line-height: 8vw;
     }
     .text1 button{
-        font-size: 4vw;
-        padding: 5vw 32vw;
+        font-size: 6vw;
+        padding: 3.5vw;
         margin-top: 10vw;
     }
 
@@ -1044,20 +1037,18 @@ button{
         grid-template-rows: 10% 30% 40% 20%;
         /* padding-bottom: 50vw; */
         width: 100%;
-        height: 120vh;
+        /* height: 120vh; */
         padding: 3vw;
         margin: 0;
         /* background-color: greenyellow; */
     }
     #bottom1 h1{
-        /* background-color: red; */
         margin-top: 2vw;
         grid-row: 1/2;
         grid-column: 1/3;
         font-size: 13vw;
     }
     #bottom1 span{
-        /* background-color: red; */
         margin-top: 3vw;
         grid-row: 2/3;
         grid-column: 1/3;
@@ -1067,26 +1058,25 @@ button{
         margin-right: 2vw;
     }
     #bottom1 .cards{
-        /* background-color: olivedrab; */
         grid-row: 3/4;
         grid-column: 1/3;
+        margin-bottom: 20vw;    
     }
 
     #bottom1 .button1{
-
-        /* background-color: violet; */
         grid-row: 4/5;
         grid-column: 1/3;
     }
     button {
         width: 100%;
         display: block;
-        font-size: 5vw;
-        padding: 2.5vh;
+        font-size: 6vw;
+        padding: 3.5vw;
         font-weight: 500;
+        margin-bottom: 10vw;
     }
     .button-pad{
-        margin-bottom: 4vw;
+        margin-bottom: 5vw;
     }
     .maincard{
         margin: 4vw;
